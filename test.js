@@ -1,3 +1,4 @@
-console.log("HI")
-const W = ("опа");
-alert(W);
+function sayHello(name) {
+    return 'Привет, ' + name;
+}
+console.log(sayHello('Аноним'));
